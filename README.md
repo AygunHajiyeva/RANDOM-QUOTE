@@ -2,8 +2,9 @@
 
 <div >
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+  
 </div>
-
+ Built with React
 Icon: https://google.github.io/material-design-icons/
 
 
@@ -21,10 +22,7 @@ Icon: https://google.github.io/material-design-icons/
 ![screencapture-localhost-3000-2022-10-08-01_19_12](https://user-images.githubusercontent.com/99952793/194765426-48ab7422-aea7-4028-8797-960158b1d99b.png)
 
    <br>
-### Built With
-  <ul>
-      <li>React</li>  
-   </ul>
+
 
 ## Features
 
