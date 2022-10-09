@@ -1,38 +1,176 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@500;700&display=swap");
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 18px 0;
   min-height: 100vh;
+  max-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.random {
+  display: flex;
+  justify-content: end;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  color: #333333;
+  cursor: pointer;
+  margin-bottom: 150px;
+  width: 100%;
+}
+
+.random p {
+  padding-right: 5px;
+}
+
+.quote {
+  position: relative;
+  width: 713px;
+  max-width: 100%;
+  min-width: min-content;
+  border-left: 8px solid #f7df94;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.quote-info {
+  position: relative;
+  padding: 50px 30px;
+  cursor: pointer;
+  max-width: 600px;
+  width: 100%;
+  height: 151px;
+  margin-top: 30px;
+}
+
+.quote-text {
+  max-width: 654px;
+  padding-left: 99px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 120%;
+}
+
+.author {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #4f4f4f;
+  padding-bottom: 5px;
+  width: max-content;
+}
+
+.genre {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #828282;
+}
+
+.quote-info:hover {
+  background: #333333;
+}
+
+.quote-info:hover * {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.arrow {
+  position: absolute;
+  right: 30px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.goback {
+  position: fixed;
+  z-index: 1000;
+}
+.goback span {
+  cursor: pointer;
+  font-size: 40px;
+  color: #333333;
+}
+
+.goback:hover {
+  transform: scale(120%);
+  transition: all 0.05s;
+}
+
+h1 {
+  max-width: 650px;
+  padding-left: 101px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-55%);
+  margin-bottom: 58px;
+}
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #4f4f4f;
+  height: auto;
+  max-width: 100%;
+  max-width: 600px;
+  padding-bottom: 18px;
+  position: relative;
+  margin-top: 50px;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer a {
+  color: #333333;
+  font-weight: 700;
+}
+
+.author-quotes {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+@media all and (max-width: 780px) {
+  .author-quotes {
+    width: 90vw;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media all and (max-width: 600px) {
+  .quote-text {
+    font-size: 26px;
+    padding-left: 50px;
+    padding-right: 5px;
+  }
+  .quote-info {
+    padding: 50px 60px;
+  }
+  .random {
+    margin-bottom: 100px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .quote-info {
+    display: flex;
+    flex-direction: column;
   }
 }
