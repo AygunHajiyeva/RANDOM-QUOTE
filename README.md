@@ -1,6 +1,7 @@
 <h1 align="center">Random Quote Generator</h1>
 
 <div >
+<h2><a href="https://www.figma.com/file/FFxqnf1cEDiHhvFpN6u4hV/quote">Figma File</a></h2>
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
   
 </div>
