@@ -19,8 +19,7 @@ Icon: https://google.github.io/material-design-icons/
 
 
 ## Overview
-![screencapture-localhost-3000-2022-10-08-01_18_37](https://user-images.githubusercontent.com/99952793/194765423-c059cf9c-c454-4c1f-abce-78bb8b3fbb33.png)
-![screencapture-localhost-3000-2022-10-08-01_19_12](https://user-images.githubusercontent.com/99952793/194765426-48ab7422-aea7-4028-8797-960158b1d99b.png)
+![screencaptu
 
    <br>
 
