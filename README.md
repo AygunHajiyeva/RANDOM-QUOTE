@@ -12,14 +12,14 @@ Icon: https://google.github.io/material-design-icons/
 <div align="center">
   <h1>
     <a href="https://randomquotegeneratordev.onrender.com/">
-      >>> Click for Demo <<<
+    
     </a>
   </h1>
 </div>
 
 
 ## Overview
-![screencaptu
+
 
    <br>
 
